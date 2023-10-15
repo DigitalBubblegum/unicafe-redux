@@ -7,6 +7,7 @@ import counterReducer from './reducers/counterReducer'
 const store = createStore(counterReducer)
 
 const App = () => {
+  //exercise 6.2
   const good = () => {
     store.dispatch({
       type: 'GOOD'
